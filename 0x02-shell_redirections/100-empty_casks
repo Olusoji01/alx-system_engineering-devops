@@ -1,2 +1,2 @@
 #!/bin/bash
-find -empty . f,d | ls -1ta
+find -empty . -type f -o -type d
