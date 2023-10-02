@@ -1,2 +1,2 @@
 #!/bin/bash
-find -mindepth 1 -type -empty f,d | ls -1ta
+find -empty . f,d | ls -1ta
